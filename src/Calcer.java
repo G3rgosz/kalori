@@ -1,3 +1,8 @@
+// Szivák Gergő
+// 2021.11.29.
+// SZOFTIIN
+// https://github.com/Gergosz-2000/kalori
+
 public class Calcer {
     double weight;
     double height;

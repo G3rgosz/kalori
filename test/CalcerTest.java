@@ -1,3 +1,8 @@
+// Szivák Gergő
+// 2021.11.29.
+// SZOFTIIN
+// https://github.com/Gergosz-2000/kalori
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
