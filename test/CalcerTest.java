@@ -41,6 +41,56 @@ public class CalcerTest {
         calcer.setData(weight, height, age);
         double actual = calcer.calcManBMR();
         double expected = -1;
+        assertEquals(expected, actual);
+    }
+    @Test
+    void calcWomanBMRNegativeTest(){
+        double weight = -1;
+        double height = 160;
+        double age = -1;
+        calcer.setData(weight, height, age);
+        double actual = calcer.calcWomanBMR();
+        double expected = -1;
+        assertEquals(expected, actual);
+    }
+    @Test
+    void calcManBMRNullTest(){
+        double weight = 0;
+        double height = 0;
+        double age = 0;
+        calcer.setData(weight, height, age);
+        double actual = calcer.calcManBMR();
+        double expected = -1;
+        assertEquals(expected, actual);
+    }
+    @Test
+    void calcWomanBMRNullTest(){
+        double weight = 0;
+        double height = 0;
+        double age = 0;
+        calcer.setData(weight, height, age);
+        double actual = calcer.calcWomanBMR();
+        double expected = -1;
+        assertEquals(expected, actual);
+    }
+    @Test
+    void calcManBMRMinTest(){
+        double weight = 1;
+        double height = 1;
+        double age = 1;
+        calcer.setData(weight, height, age);
+        double actual = calcer.calcManBMR();
+        double expected = 100.89;
+        assertEquals(expected, actual, 0.01);
+    }
+    @Test
+    void calcWomanBMRMinTest(){
+        double weight = 1;
+        double height = 1;
+        double age = 1;
+        calcer.setData(weight, height, age);
+        double actual = calcer.calcWomanBMR();
+        double expected = 455.60;
         assertEquals(expected, actual, 0.01);
     }
 }
