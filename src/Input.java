@@ -1,7 +1,12 @@
-// Szivák Gergő
-// 2021.11.29.
-// SZOFTIIN
-// https://github.com/Gergosz-2000/kalori
+/*
+* File: Input.java
+* Author: Szivák Gergő
+* Copyright: 2021, Szivák Gergő
+* Group: Szoft II N
+* Date: 2021-11-29.
+* Github: https://github.com/Gergosz-2000/kalori
+* Licenc: GNU GPL
+*/
 
 import java.util.Scanner;
 public class Input {
